@@ -104,10 +104,13 @@
 
 [submodule "cmeps"]
         path = components/cmeps
-        url = https://github.com/ESCOMP/CMEPS.git
-        fxDONOTUSEurl = https://github.com/ESCOMP/CMEPS.git
+#       url = https://github.com/ESCOMP/CMEPS.git
+#       fxDONOTUSEurl = https://github.com/ESCOMP/CMEPS.git
         fxrequired = ToplevelRequired
-        fxtag = cmeps1.0.6
+#       fxtag = cmeps1.0.6
+        url = https://github.com/RafaPedroFernandez/CMEPS.git
+        fxDONOTUSEurl = https://github.com/RafaPedroFernandez/CMEPS.git
+        fxtag = cmeps1.0.6_slh
 
 [submodule "rtm"]
         path = components/rtm
