@@ -63,13 +63,13 @@
 
 [submodule "clm"]
         path = components/clm
-        url = https://github.com/ESCOMP/CTSM
-        fxDONOTUSEurl = https://github.com/ESCOMP/CTSM
+#       url = https://github.com/ESCOMP/CTSM
+#       fxDONOTUSEurl = https://github.com/ESCOMP/CTSM
         fxrequired = ToplevelRequired
-        fxtag = ctsm5.2.009
-#       url = https://github.com/RafaPedroFernandez/CTSM
-#       fxDONOTUSEurl = https://github.com/RafaPedroFernandez/CTSM
-#       fxtag = ctsm5.2.009_slh
+#        fxtag = ctsm5.2.009
+        url = https://github.com/RafaPedroFernandez/CTSM
+        fxDONOTUSEurl = https://github.com/RafaPedroFernandez/CTSM
+        fxtag = ctsm5.2.009_slh
 
 [submodule "cice"]
         path = components/cice
@@ -87,12 +87,12 @@
 
 [submodule "cism"]
         path = components/cism
-        url = https://github.com/ESCOMP/cism-wrapper.git
-        fxDONOTUSEurl = https://github.com/ESCOMP/cism-wrapper.git
-        fxtag = cismwrap_2_2_002
-#       url = https://github.com/RafaPedroFernandez/cism-wrapper.git
-#       fxDONOTUSEurl = https://github.com/RafaPedroFernandez/cism-wrapper.git
-#       fxtag = cismwrap_2_2_002_slh
+#       url = https://github.com/ESCOMP/cism-wrapper.git
+#       fxDONOTUSEurl = https://github.com/ESCOMP/cism-wrapper.git
+#       fxtag = cismwrap_2_2_002
+        url = https://github.com/RafaPedroFernandez/cism-wrapper.git
+        fxDONOTUSEurl = https://github.com/RafaPedroFernandez/cism-wrapper.git
+        fxtag = cismwrap_2_2_002_slh
         fxrequired = ToplevelRequired
 
 [submodule "cdeps"]
