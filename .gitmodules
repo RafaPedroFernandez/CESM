@@ -58,8 +58,11 @@
         path = components/cam
         url = https://www.github.com/RafaPedroFernandez/CAM
         fxDONOTUSEurl = https://www.github.com/RafaPedroFernandez/CAM
-        fxtag = cam6_4_016_slh
+        fxtag = cam_cesm2_2_rel_09_slh-cesm3_0_beta02
         fxrequired = ToplevelRequired
+#       local_path = components/cam
+        externals = Externals_CAM.cfg
+        required = True
 
 [submodule "clm"]
         path = components/clm
