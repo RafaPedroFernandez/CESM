@@ -113,7 +113,8 @@
 #       fxtag = cmeps1.0.6
         url = https://github.com/RafaPedroFernandez/CMEPS.git
         fxDONOTUSEurl = https://github.com/RafaPedroFernandez/CMEPS.git
-        fxtag = cmeps1.0.6_slh
+#       fxtag = cmeps1.0.6_slh
+        fxtag = cmeps1.0.6_cam_cesm2_2_rel_09_slh
 
 [submodule "rtm"]
         path = components/rtm
